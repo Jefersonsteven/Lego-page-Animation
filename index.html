@@ -36,11 +36,15 @@
                     voluptate laboriosam nam architecto.</p>
             </main>
             <footer class="footer-container">
-                <div>
+                <div id="button1">
                     <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="spiderman">
                 </div>
-                <div></div>
-                <div></div>
+                <div id="button2">
+                    <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="robbin">
+                </div>
+                <div id="button3">
+                    <img src="https://i.ibb.co/M18p91c/batman.webp" alt="batman">
+                </div>
             </footer>
             <section class="side-container">
                     <p>Superman</p>
@@ -49,6 +53,7 @@
             </section>
 
         </div>
+
         <!-- loader -->
         <section class="loader">
             <div></div>
@@ -57,7 +62,33 @@
         </section>
 
         <!-- Modal -->
-        <section></section>
+        <section class="modal hidden">
+            <div class="modal-container">
+                <img class="modal-container__close" src="https://img.icons8.com/plumpy/50/000000/macos-close.png" alt="close"/>
+
+                <div class="modal-container__slider">
+                    <input type="radio" name="slider-1" id="radio-1" checked>
+                    <input type="radio" name="slider-1" id="radio-2" >
+                    <input type="radio" name="slider-1" id="radio-3" >
+
+                    <div class="cards">
+                        <label for="radio-1" id="card-1" class="card">
+                            <img src="https://i.pinimg.com/originals/a6/57/24/a6572497d91badc608615e399fdc3444.png" alt="">
+                        </label>
+                        <label for="radio-2" id="card-2" class="card">
+                            <img src="https://i.ebayimg.com/images/g/v2kAAOSwggJeucA8/s-l400.png" alt="">
+                        </label>
+                        <label for="radio-3" id="card-3" class="card">
+                            <img src="https://i.pinimg.com/originals/c6/6a/a1/c66aa1652c932d038a0d8afcf2b3e6b7.png" alt="">
+                        </label>
+                    </div>
+                </div>
+                <button>I want it!</button>
+            </div>
+        </section>
     </div>
 </body>
+<script src="src/index.js">
+
+</script>
 </html>
